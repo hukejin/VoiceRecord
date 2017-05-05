@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+              android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.gmy.voicerecord.view.RecordButton
+        android:id="@+id/record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dip"
+        android:layout_marginLeft="40dip"
+        android:layout_marginRight="40dip"
+        android:gravity="center"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:text="录音转MP3"
+        android:textSize="14sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="录制amr文件"
+        android:id="@+id/amrbtn"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="录制3pg文件"
+        android:id="@+id/threepgbtn"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="录制mp3文件"
+        android:id="@+id/mpthreebtn"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="录制wav文件"
+        android:id="@+id/wavbtn"/>
+
+</LinearLayout>
